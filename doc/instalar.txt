@@ -1,0 +1,15 @@
+Documentação para instalação do notebook com linux (Ubuntu)
+===========================================================
+
+É necessário a instalação do puppet da seguinte forma:
+
+ - apt-get update
+ - apt-get install puppet
+ - puppet module install puppetlabs-apt
+Para maiores detalhes consultar: https://forge.puppetlabs.com/puppetlabs/apt
+
+3 - Rodar o comando em /home/leonardo/puppet/instalacao/manifest:
+Comando: puppet apply --verbose instalar.instalar.pp
+
+Com isso será configurado a máquina para uso.
+

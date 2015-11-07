@@ -1,0 +1,19 @@
+#instalar apache2
+apt-get install apache2
+
+#instalar o php 5
+apt-get install php5
+
+#instalar o mysql
+apt-get install mysql-server mysql-client mysql-php php5-mysql
+
+#instalar o phpmyadmin
+apt-get install phpmyadmin
+
+#configuração do phpmyadmin
+/etc/dbconfig-common/phpmyadmin.conf
+
+#caso queira manusear a base de dados via workbench
+apt-get install mysql-workbench
+
+
