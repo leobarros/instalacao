@@ -8,6 +8,7 @@ Foi usado o puppet para agilizar as minhas configurações depois de uma formata
 Baseado em um sistema:
 
 * Ubuntu 14.04
+* Linux Mint 17.03
 
 **Versão do Puppet**
 Foi instalado o puppet 3.7.2
